@@ -1,5 +1,5 @@
 # Tuples
-# words = ("spam","white","black")
+# words = ("sp\am","white","black")
 #
 # # words[0] = "red"
 # print(words[2])
