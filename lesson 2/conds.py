@@ -97,7 +97,7 @@ if student_gpa >= 3.5:
         print(f"Student with GPA {student_gpa} and test score of {student_score} is not eligible for a partial scolarship")
 
 else:
-    print(f"Student with GPA {student_gpa} and test score of {student_score} is not eligible for a partial scolarship")
+    print(f"Student with GPA {student_gpa} and test score of {student_score} is not eligible for a partial scolarship.")
 
 
 
