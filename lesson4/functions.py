@@ -18,12 +18,34 @@
 #
 #
 
+#
+# greeting="Hello"
+#
+# def greet(name):
+#     message=f"{greeting},{name}"
+#     print(message)
+#
+# greet("Bob")
+# print(greeting)
+#
+# greeting="Hello"
+#
+#
+# def greet():
+#     global greeting
+#     greeting="Goodbye"
+#     name="Alice"
+#
+#     message=f"{greeting},{name}"
+#
+#     print(message)
+#
+# greet()
+# print(greeting)
 
-greeting="Hello"
-
-def greet(name):
+def greet_person(name,greeting="Hello"):
     message=f"{greeting},{name}"
-    print(message)
+    return message
 
-greet("Bob")
-print(greeting)
+print(greet_person("Alice"))
+print(greet_person("Bob","Hi"))
