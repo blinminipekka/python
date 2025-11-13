@@ -1,10 +1,29 @@
-def greet():
-    print("Hello World")
+# def greet():
+#     print("Hello World")
+#
+# greet()
+#
+# def greet_person(name):
+#     print("Hello",name)
+#
+# greet_person("Daris")
+# greet_person("Gent")
 
-greet()
+# def greet(name):
+#     message=f"Hello,{name}"
+#     print(message)
+#
+# greet("Alice")
+# print(message)
+#
+#
 
-def greet_person(name):
-    print("Hello",name)
 
-greet_person("Daris")
-greet_person("Gent")
+greeting="Hello"
+
+def greet(name):
+    message=f"{greeting},{name}"
+    print(message)
+
+greet("Bob")
+print(greeting)
