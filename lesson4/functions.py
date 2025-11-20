@@ -8,7 +8,7 @@
 #
 # greet_person("Daris")
 # greet_person("Gent")
-
+#
 # def greet(name):
 #     message=f"Hello,{name}"
 #     print(message)
@@ -17,7 +17,7 @@
 # print(message)
 #
 #
-
+#
 #
 # greeting="Hello"
 #
@@ -37,6 +37,7 @@
 #     name="Alice"
 #
 #     message=f"{greeting},{name}"
+
 #
 #     print(message)
 #
