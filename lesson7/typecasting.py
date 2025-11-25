@@ -20,7 +20,7 @@
 # result2=a+int(b)
 # print(type(b))
 # print(result2)
-
+/
 
 name=input("Enter your name:")
 print(f"Hellon{name}")
